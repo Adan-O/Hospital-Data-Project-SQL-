@@ -1,19 +1,19 @@
-# 📊 Hospital Data Analysis
+#  Hospital Data Analysis
 
-## 🧭 Overview
+##  Overview
 
 This project analyzes hospital data to uncover insights on patient encounters, procedure costs, insurance coverage, and behavior patterns. The analysis supports the hospital’s annual reporting and strategic planning efforts.
 
 
-## 🎯 Objectives
+##  Objectives
 - Encounters Overview: Analyze the trends in each encounter such as volume, what the visit is for, and the length of each visit
 - Cost and Coverage Insights: Analyze insurance coverages, costs of specific procedures and claims.
 - Patient behavior analysis: Analyze patterns in patient behavior such as length of stay and readmissions
 
 ---
 
- ## 🧩 Dataset Description
-The dataset consists of **4 relational tables**: `Encounters`, `Procedures`, `Patients`, and `Payers`.
+ ##  Dataset Description
+The dataset consists of **4 tables**: `Encounters`, `Procedures`, `Patients`, and `Payers`.
 
 | Table | Key Fields | Description |
 |--------|-------------|-------------|
@@ -23,7 +23,7 @@ The dataset consists of **4 relational tables**: `Encounters`, `Procedures`, `Pa
 | **Payers** | Name | List of insurance providers. |
 
 
-## 🧰 Tools & Technologies
+##  Tools & Technologies
 | Category | Tools / Libraries |
 |-----------|------------------|
 | Language | SQL |
@@ -31,7 +31,7 @@ The dataset consists of **4 relational tables**: `Encounters`, `Procedures`, `Pa
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 When exploring the Encounters table we sought to answer 3 questions. Here I will list the questions and give my insights as to the results of each question.
 
 1. How many encounters occurred each year?
